@@ -96,6 +96,8 @@ enum TerminalFeature {
     DISABLE_BACKGROUND_DRAW
 }
 
+private static bool g_vteTerminalLoaded = false;
+
 /**
  * Determine which terminal features are supported.
  */
@@ -103,9 +105,13 @@ bool checkVTEFeature(TerminalFeature feature) {
     // Initialized features if not done yet, can't do it statically
     // due to need for GTK to load first
     if (!featuresInitialized) {
+        import vte.c.functions;
+
         // Force terminal to be loaded if not done already
-        Terminal terminal = new Terminal();
-        scope(exit) {terminal.destroy();}
+        if (!g_vteTerminalLoaded) {
+            g_vteTerminalLoaded = true;
+            auto terminal = vte_terminal_new ();
+        }
 
         // Check if patched events are available
         string[] events = ["notification-received", "terminal-screen-changed"];
@@ -119,7 +125,6 @@ bool checkVTEFeature(TerminalFeature feature) {
 
         import gtkc.Loader: Linker;
         import gtkc.paths: LIBRARY;
-        import vte.c.functions;
         string[] failures = Linker.getLoadFailures(LIBRARY_VTE);
 
         foreach(failure; failures) {

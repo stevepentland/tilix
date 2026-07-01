@@ -28,7 +28,7 @@ import gx.tilix.constants;
 
 int main(string[] args) {
     static if (USE_FILE_LOGGING) {
-        sharedLog = new FileLogger("/tmp/tilix.log");
+        sharedLog = new shared FileLogger("/tmp/tilix.log");
     }
 
     bool newProcess = false;
@@ -98,6 +98,8 @@ int main(string[] args) {
 
     //textdomain
     textdomain(TILIX_DOMAIN);
+    // Set application ID for GTK3 on Wayland
+    Util.setPrgname(APPLICATION_ID);
     // Init GTK early so localization is available
     // Note used to pass empty args but was interfering with GTK default args
     Main.init(args);

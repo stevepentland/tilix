@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Name=Tilix
-Comment=A tiling terminal for Gnome
-Keywords=shell;prompt;command;commandline;cmd;
+Comment=A tiling terminal for GNOME
+Keywords=shell;prompt;command;commandline;cmd;terminal;
 Exec=tilix
 Terminal=false
 Type=Application

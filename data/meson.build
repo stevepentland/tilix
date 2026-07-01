@@ -1,3 +1,4 @@
+subdir('man')
 
 # install the icons
 install_data(
@@ -11,17 +12,13 @@ install_data(
 
 # Install the desktop file
 desktop_file = i18n.merge_file(
-    '@0@.desktop'.format(project_id),
     output: '@BASENAME@',
     input: 'pkg/desktop/@0@.desktop.in'.format(project_id),
-    po_dir: meson.source_root() / 'po',
+    po_dir: meson.project_source_root() / 'po',
     type: 'desktop',
     install: true,
     install_dir: appdir
 )
-
-# Install manual page
-install_man(['man/tilix.1'])
 
 # Validate desktop file
 desktop_file_validate = find_program('desktop-file-validate', required: false)
@@ -44,10 +41,9 @@ metainfo_with_releases = custom_target('metainfo-news-merge',
 
 # Install the MetaInfo file
 metainfo_file = i18n.merge_file(
-    tilix_metainfo_name,
     output: tilix_metainfo_name,
     input: metainfo_with_releases,
-    po_dir: meson.source_root() / 'po',
+    po_dir: meson.project_source_root() / 'po',
     install: true,
     install_dir: datadir / 'metainfo'
 )

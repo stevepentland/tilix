@@ -3,6 +3,12 @@
 # Tilix
 A tiling terminal emulator for Linux using GTK+ 3. The Tilix web site for users is available at [https://gnunn1.github.io/tilix-web](https://gnunn1.github.io/tilix-web).
 
+> :warning: **Maintainers Wanted**<br/>
+> This project is looking for maintainers!
+> At the moment, only very minimal maintenance is done, no new features will be implemented and pull-requests may be reviewed very slowly.
+>
+> If you are interested in giving Tilix some :heart:, [please chime in](https://github.com/gnunn1/tilix/issues/1700)!
+
 ###### Screenshot
 ![Screenshot](https://gnunn1.github.io/tilix-web/assets/images/gallery/tilix-screenshot-1.png)
 
@@ -39,13 +45,6 @@ Tilix requires the following libraries to be installed in order to run:
 * GSettings
 * [Nautilus-Python](https://wiki.gnome.org/Projects/NautilusPython) (Required for Nautilus integration)
 
-### Maintainers Wanted
-
-This project is looking for maintainers!
-At the moment, only very minimal maintenance is done, no new features will be implemented and pull-requests may be reviewed very slowly.
-
-If you are interested in giving Tilix some :heart:, [please chime in](https://github.com/gnunn1/tilix/issues/1700)!
-
 ### Migrating Settings From Terminix
 
 Terminix was recently re-named to Tilix and as a result the settings key changed. To migrate your settings to Tilix, please perform the following steps:
@@ -77,8 +76,7 @@ After installing the fonts, select the "Powerline Symbols" font in Tilix via **P
 
 ### Support
 
-If you are having issues with Tilix, feel free to open issues here in github as necessary. Developers and users can  also be found on IRC on the
-[freenode](https://freenode.net) network in the #tilix room.
+If you are having issues with Tilix, feel free to open issues here in github as necessary.
 
 ### Localization
 
@@ -109,7 +107,7 @@ for more information.
 #### Build Dependencies
 
 Tilix depends on the following libraries as defined in dub.json:
-* [gtkd](http://gtkd.org/) >= 3.8.2
+* [gtkd](http://gtkd.org/) >= 3.11.0
 * gdk-pixbuf-pixdata (Used when building resource file)
 
 ### Install Tilix

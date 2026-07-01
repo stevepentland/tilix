@@ -1437,6 +1437,7 @@ private:
     void advancedPaste(GdkAtom source) {
         string pasteText = Clipboard.get(source).waitForText();
         if (pasteText.length == 0) return;
+        if (pasteText.indexOf("\n") < 0) return paste(source);
 
         AdvancedPasteDialog dialog = new AdvancedPasteDialog(cast(Window) getToplevel(), pasteText, isPasteUnsafe(pasteText));
         scope(exit) {
@@ -1446,7 +1447,7 @@ private:
         dialog.showAll();
         if (dialog.run() == ResponseType.APPLY) {
             pasteText = dialog.text;
-            vte.feedChild(pasteText[0 .. $]);
+            vte.pasteText(pasteText[0 .. $]);
             if (gsProfile.getBoolean(SETTINGS_PROFILE_SCROLL_ON_INPUT_KEY)) {
                 scrollToBottom();
             }
@@ -1487,9 +1488,9 @@ private:
 
         if (gsSettings.getBoolean(SETTINGS_STRIP_FIRST_COMMENT_CHAR_ON_PASTE_KEY) && pasteText.length > 0 && (pasteText[0] == '#' || pasteText[0] == '$')) {
             pasteText = pasteText[1 .. $];
-            vte.feedChild(pasteText);
+            vte.pasteText(pasteText);
         } else if (stripTrailingWhitespace) {
-            vte.feedChild(pasteText);
+            vte.pasteText(pasteText);
         } else if (source == GDK_SELECTION_CLIPBOARD) {
             vte.pasteClipboard();
         } else {
@@ -2048,6 +2049,7 @@ private:
                             groups ~= info.fetchAll();
                             foreach(group; groups) tracef("Group %s", group);
                             string command = replaceMatchTokens(tr.command, groups);
+                            command = replaceVariables(command);
                             trace("Command: " ~ command);
                             string[string] env;
                             spawnShell(command, env, Config.none, currentLocalDirectory);
@@ -2460,6 +2462,7 @@ private:
             break;
         case SETTINGS_PROFILE_BADGE_USE_SYSTEM_FONT_KEY, SETTINGS_PROFILE_BADGE_FONT_KEY:
             updateBadgeFont();
+            break;
         default:
             break;
         }
@@ -2729,6 +2732,9 @@ private:
             }
         }
         string[] envv = ["TILIX_ID=" ~ uuid];
+        if (tilix.isQuake) {
+            envv ~= ["TILIX_QUAKE=1"];
+        }
         foreach (arg; args)
             trace("Argument: " ~ arg);
         try {
@@ -3166,10 +3172,7 @@ private:
         TargetEntry sessionEntry = new TargetEntry(SESSION_DND, TargetFlags.SAME_APP, DropTargets.SESSION);
         TargetEntry[] targets = [uriEntry, utf8TextEntry, stringEntry, textEntry, colorEntry, vteEntry, sessionEntry];
         vte.dragDestSet(DestDefaults.ALL, targets, DragAction.COPY | DragAction.MOVE);
-
-        // This is required to be able to drop on root window in Wayland, see gtknotebook.c
-        TargetEntry rootEntry = new TargetEntry("application/x-rootwindow-drop", 0, 0);
-        dragSourceSet(ModifierType.BUTTON1_MASK, [vteEntry, rootEntry], DragAction.MOVE);
+        dragSourceSet(ModifierType.BUTTON1_MASK, [vteEntry], DragAction.MOVE);
 
         //Title bar events
         addOnDragBegin(&onTitleDragBegin);
@@ -3270,11 +3273,9 @@ private:
                 dragImage = null;
             }
         }
-        if (dr == GtkDragResult.NO_TARGET) {
-            //Only allow detach if whole hierarchy agrees (application, window, session)
-            if (notifyIsActionAllowed(ActionType.DETACH_TERMINAL)) {
-                if (detachTerminalOnDrop(dc)) return true;
-            }
+        //Only allow detach if whole hierarchy agrees (application, window, session)
+        if (notifyIsActionAllowed(ActionType.DETACH_TERMINAL)) {
+            if (detachTerminalOnDrop(dc)) return true;
         }
         return false;
     }
@@ -3653,6 +3654,8 @@ private:
      *  showSaveAsDialog = Determines if save as dialog is shown. Note dialog may be shown even if false is passed if the session filename is not set
      */
     void saveTerminalOutput(bool showSaveAsDialog = true) {
+        import gio.OutputStream : OutputStream;
+
         if (outputFilename.length == 0 || showSaveAsDialog) {
             Window window = cast(Window) getToplevel();
             FileChooserDialog fcd = new FileChooserDialog(
@@ -3687,7 +3690,7 @@ private:
         }
         //Do work here
         GFileIF file = parseName(outputFilename);
-        gio.OutputStream.OutputStream stream = file.replace(null, false, GFileCreateFlags.NONE, null);
+        OutputStream stream = file.replace(null, false, GFileCreateFlags.NONE, null);
         scope (exit) {
             stream.close(null);
         }
@@ -3696,7 +3699,7 @@ private:
 
 // Theme changed
 private:
-    void onThemeChanged(string theme) {
+    void onThemeChanged() {
         //Get CSS Provider updated via preference
         applyPreference(SETTINGS_PROFILE_BG_COLOR_KEY);
     }
@@ -4270,9 +4273,9 @@ public:
         super([_("Relaunch")], [ResponseType.OK]);
         lblPrompt = new Label("");
         getContentArea().packStart(lblPrompt, true, true, 0);
-        lblPrompt.setHalign(Align.START);
-        setHalign(Align.FILL);
-        setValign(Align.START);
+        lblPrompt.setHalign(GtkAlign.START);
+        setHalign(GtkAlign.FILL);
+        setValign(GtkAlign.START);
         trace("Infobar created");
         addOnMap(delegate(Widget) {
             setDefaultResponse(ResponseType.OK);
@@ -4318,7 +4321,7 @@ public:
 
         Label lblCmd = new Label(SimpleXML.markupEscapeText(cmd, cmd.length));
         lblCmd.setUseMarkup(true);
-        lblCmd.setHalign(Align.START);
+        lblCmd.setHalign(GtkAlign.START);
         lblCmd.setEllipsize(PangoEllipsizeMode.END);
 
         if (count(cmd,"\n") > 6) {

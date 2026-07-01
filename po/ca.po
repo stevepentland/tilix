@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tilix\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-10 20:32+0100\n"
-"PO-Revision-Date: 2021-03-20 09:18+0000\n"
-"Last-Translator: David Planella <david.planella@ubuntu.com>\n"
+"POT-Creation-Date: 2023-11-08 21:52+0100\n"
+"PO-Revision-Date: 2024-01-17 12:06+0000\n"
+"Last-Translator: Ecron <ecron_89@hotmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/tilix/"
 "translations/ca/>\n"
 "Language: ca\n"
@@ -16,38 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:4
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:4
-#: source/gx/tilix/application.d:320 source/gx/tilix/appwindow.d:1681
+#: source/gx/tilix/application.d:321 source/gx/tilix/appwindow.d:1694
 msgid "Tilix"
 msgstr "Tilix"
 
 #: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:5
+#: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
 msgid "A tiling terminal for GNOME"
 msgstr "Un mosaic de Terminals per a Gnome"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:8
-msgid "Gerald Nunn"
-msgstr "Gerald Nunn"
-
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:10
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:9
 msgid "Tilix is a tiling terminal emulator."
-msgstr "El Tilix és un emulador de mosaics de terminals."
+msgstr "El Tilix és un emulador de terminals en mosaic."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:13
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:12
 msgid "It lets you:"
 msgstr "Us permet:"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:15
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:14
 msgid ""
 "Layout terminals in any fashion by splitting them horizontally or vertically"
 msgstr ""
 "Disposar les terminals de qualsevol manera dividint-les horitzontalment o "
 "verticalment"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:16
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:15
 msgid ""
 "Terminals can be re-arranged using drag and drop both within and between "
 "windows"
@@ -55,13 +52,13 @@ msgstr ""
 "Els terminals es poden tornar a organitzar arrossegant-les i soltant-les "
 "dins i entre les finestres"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:17
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:16
 msgid "Terminals can be detached into a new window via drag and drop"
 msgstr ""
 "Els terminals es poden desconnectar en una finestra nova mitjançant "
 "arrossegar i soltar"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:18
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:17
 msgid ""
 "Input can be synchronized between terminals so commands typed in one "
 "terminal are replicated to the others"
@@ -69,15 +66,15 @@ msgstr ""
 "L’entrada es pot sincronitzar entre els terminals de manera que les ordres "
 "escrites en un terminal es repliquen als altres"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:19
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:18
 msgid "The grouping of terminals can be saved and loaded from disk"
 msgstr "L’agrupació de terminals es pot desar i carregar des del disc"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:20
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:19
 msgid "Terminals support custom titles"
 msgstr "Els terminals poden tenir títols personalitzats"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:21
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:20
 msgid ""
 "Color schemes are stored in files and custom color schemes can be created by "
 "simply creating a new file"
@@ -85,17 +82,17 @@ msgstr ""
 "Els esquemes de color s'emmagatzemen en fitxers i se'n poden crear de "
 "personalitzats simplement creant un fitxer nou"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:22
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:21
 msgid "Transparent background"
 msgstr "Fons transparent"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:23
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:22
 msgid "Supports notifications when processes are completed out of view"
 msgstr ""
 "Compatible amb les notificacions quan els processos es completen fora de "
 "vista"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:25
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:24
 msgid ""
 "The application was written using GTK 3 and an effort was made to conform to "
 "GNOME Human Interface Guidelines (HIG). As a result, it does use client-side-"
@@ -105,187 +102,260 @@ msgstr ""
 "directrius de la interfície humana de GNOME (HIG). Com a resultat, utilitza "
 "decoracions laterals del client, tot i que es pot desactivar si voleu."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:29
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:28
 msgid "Tilix has been tested with GNOME and with Unity."
 msgstr "El Tilix s'ha provat amb el GNOME i amb el Unity."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:52
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
+msgid "Tilix is still looking for a new maintainer!"
+msgstr "Tilix encara està buscant un mantenidor nou!"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:59
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:85
+msgid "This release adds the following features:"
+msgstr "Aquesta versió afegeix les funcions següents:"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:61
+msgid "Disable advanced paste when there is no linebreak like iTerm2"
+msgstr ""
+"Desactiva l'enganxada avançada quan no hi hagi cap salt de línia com a iTerm2"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:62
+msgid "Add environment variable when in quake mode"
+msgstr "Afegeix una variable d'entorn quan estigui en mode quake"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:63
+msgid "Add possibility to configure always enabled regex"
+msgstr "Afegeix possibilitat de configurar una regex sempre habilitada"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:65
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:91
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:120
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:130
+msgid "This release fixes the following bugs:"
+msgstr "Aquesta versió corregeix els errors següents:"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:67
+msgid "More appdata -&gt; metainfo move"
+msgstr "Més moviment appdata -&gt; metainfo"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:68
+msgid "Add meson target for man page translations"
+msgstr "Afegeix un objectiu de mesó per a traduccions de pàgines de manual"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:69
+msgid "Update flatpak manifest"
+msgstr "Actualitzar el manifest flatpak"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:70
+msgid "meson: drop unused argument for i18n.merge_file()"
+msgstr "meson: elimina l'argument no utilitzat per a i18n.merge_file()"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:71
+msgid "Stop using deprecated Meson features"
+msgstr "Deixar d'utilitzar funcions obsoletes de Meson"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:72
+msgid ""
+"Keep quake window open if focus is restored before timeout has been reached"
+msgstr ""
+"Mantenir oberta la finestra del mode Quake si el focus es restaura abans que "
+"finalitzi el temps d'espera"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:73
+msgid "Don't check GtkDragResult"
+msgstr "No marcar GtkDragResult"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:74
+msgid "Don't add application/x-rootwindow-drop to dragSourceSet targets"
+msgstr "No afegir application/x-rootwindow-drop als objectius dragSourceSet"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:76
+msgid "With contributions from:"
+msgstr "Amb les aportacions de:"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:77
+msgid ""
+"Alan Scherger, Antoine Belvire, David King, Jan Beich, kohnish, luk1337, "
+"matishadow, Winston Hoy, Matthias Klumpp"
+msgstr ""
+"Alan Scherger, Antoine Belvire, David King, Jan Beich, kohnish, luk1337, "
+"matishadow, Winston Hoy, Matthias Klumpp"
+
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
 msgid ""
 "Tilix is looking for maintainers! At the moment, only very minimal "
 "maintenance is done, no new features will be implemented and pull-requests "
 "may be reviewed very slowly."
 msgstr ""
+"Tilix està buscant mantenedors! De moment, només es fa un manteniment molt "
+"mínim, no s'implementaran noves funcions i les sol·licituds d'extracció es "
+"poden revisar molt lentament."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:53
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:84
 msgid "If you are interested in helping Tilix, please chime in!"
-msgstr ""
+msgstr "Si estàs interessat a ajudar a Tilix, si us plau, participa!"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:54
-msgid "This release adds the following features:"
-msgstr ""
-
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:56
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:87
 msgid "Actually install Yaru color scheme"
-msgstr ""
+msgstr "De fet, instal·la l'esquema de colors Yaru"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:57
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:88
 msgid "Give every tab the ${title}"
-msgstr ""
+msgstr "Posa ${title} a cada pestanya"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:58
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:89
 msgid "Add option to strip trailing whitespace on paste"
 msgstr ""
+"Addiciona l'opció de remoure els espais en blanc al final, mentre s'enganxa"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:60
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:89
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:99
-msgid "This release fixes the following bugs:"
-msgstr ""
-
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:62
-#, fuzzy
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:93
 msgid "Fix saving of already saved session"
-msgstr "Obre una sessió desada"
+msgstr "S'ha corregit el desament d'una sessió ja desada"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:63
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:94
 msgid "Add shortcut to \"Unselect all\""
-msgstr ""
+msgstr "Afegir la drecera «Desmarca-ho tot»"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:64
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:95
 msgid "Many Meson buildsystem fixes"
-msgstr ""
+msgstr "Moltes correccions al sistema de compilació meson"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:65
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:96
 msgid "Avoid missing the previous command exit code when encoding URLs"
 msgstr ""
+"Quan codifiqueu URL, ja no s'ignora el codi de sortida de l'ordre anterior"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:66
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:97
 msgid "Resolve some D deprecation messages"
-msgstr ""
+msgstr "Resolució d'alguns missatges d'obsolescència D"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:67
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:98
 msgid "Mention powerline/fonts in README"
-msgstr ""
+msgstr "Menciona powerline/fonts a README"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:68
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:99
 msgid "Avoid calling `values()` on a shared object"
-msgstr ""
+msgstr "Eviteu cridar `values()` en un objecte compartit"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:69
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:100
 msgid "Update metainfo data"
-msgstr ""
+msgstr "Actualitzar les dades metainfo"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:70
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:101
 msgid "Drop compat code for older D frontend versions"
 msgstr ""
+"S'ha eliminat el codi de compatibilitat per a versions anteriors de la "
+"interfície D"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:71
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:102
 msgid "Bump minimum VTE version to 0.46"
-msgstr ""
+msgstr "Augmenta a la versió mínima 0.46 per a VTE"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:72
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:103
 msgid "Remove deprecated Autotools support"
-msgstr ""
+msgstr "Elimina el suport obsolet d'Autotools"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:73
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:104
 msgid "Add release notes, NEWS file, automatic metainfo update"
 msgstr ""
+"S'han afegit notes de llançament, fitxer NEWS, actualització automàtica de "
+"metainfo"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:74
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:105
 msgid "Update to GtkD 3.9.0"
-msgstr ""
+msgstr "Actualització a GtkD 3.9.0"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:76
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:107
 msgid "This release updates translations."
-msgstr ""
+msgstr "Aquesta versió actualitza les traduccions."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:81
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:112
 msgid "This release fixes the following bug:"
-msgstr ""
+msgstr "Aquesta versió soluciona l'error següent:"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:83
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:114
 msgid ""
 "Fixes a problem with the session sidebar getting out of sync after having "
 "deleted a session. See issues #1680, #1637 and #1699."
 msgstr ""
+"Soluciona un problema amb la dessincronització de la barra lateral de la "
+"sessió després d'haver suprimit una sessió. Vegeu els números 1680, 1637 i "
+"1699."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:91
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:122
 msgid "Remove app menu for gnome 3.32"
-msgstr ""
+msgstr "Elimina el menú d'aplicacions per a gnome 3.32"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:92
-#, fuzzy
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:123
 msgid "Update icon"
-msgstr "ActualitzaTítol"
+msgstr "Actualitza Icona"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:93
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:124
 msgid "Minor fixes"
-msgstr ""
+msgstr "Correccions menors"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:101
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:132
 msgid "Small release to update localizations"
-msgstr ""
+msgstr "Petita versió per a actualitzar les localitzacions"
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:102
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:133
 msgid "Update to GtkD 3.8.5 to fix library name in GtkD."
 msgstr ""
+"Actualitzeu-lo al GtkD 3.8.5 per a corregir el nom de la biblioteca al GtkD."
 
-#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:108
+#: data/metainfo/com.gexperts.Tilix.appdata.xml.rel.in:139
 msgid "Some new features and bug fixes."
-msgstr ""
+msgstr "Algunes funcions noves i correccions d'errors."
 
-#: data/nautilus/open-tilix.py:114
+#: data/nautilus/open-tilix.py:119
 msgid "Open Remote Tilix"
 msgstr "Obre el Tilix de forma remota"
 
-#: data/nautilus/open-tilix.py:115
+#: data/nautilus/open-tilix.py:120
 msgid "Open Remote Tilix In {}"
-msgstr "Obre el Tilix de forma remota en  {}"
+msgstr "Obrir el Tilix remot a {}"
 
-#: data/nautilus/open-tilix.py:121
+#: data/nautilus/open-tilix.py:126
 msgid "Open In Tilix"
 msgstr "Obre en Tilix"
 
-#: data/nautilus/open-tilix.py:122
+#: data/nautilus/open-tilix.py:127
 msgid "Open Tilix In {}"
-msgstr "Obre el Tilix en  {}"
+msgstr "Obre el Tilix a {}"
 
-#: data/nautilus/open-tilix.py:132
+#: data/nautilus/open-tilix.py:138
 msgid "Open Remote Tilix Here"
 msgstr "Obre el Tilix de forma remota aquí"
 
-#: data/nautilus/open-tilix.py:133
+#: data/nautilus/open-tilix.py:139
 msgid "Open Remote Tilix In This Directory"
 msgstr "Obre el Tilix de forma remota en aquest directori"
 
-#: data/nautilus/open-tilix.py:138
+#: data/nautilus/open-tilix.py:144
 msgid "Open Tilix Here"
 msgstr "Obre el Tilix aquí"
 
-#: data/nautilus/open-tilix.py:139
+#: data/nautilus/open-tilix.py:145
 msgid "Open Tilix In This Directory"
 msgstr "Obre el Tilix en aquest directori"
-
-#: data/pkg/desktop/com.gexperts.Tilix.desktop.in:5
-msgid "A tiling terminal for Gnome"
-msgstr "Un mosaic de terminals per a Gnome"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:6
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "intèrpret d'ordres;indicador;ordre;línia d'ordres;"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:17
-#: source/gx/tilix/appwindow.d:679 source/gx/tilix/prefeditor/prefdialog.d:1554
+#: source/gx/tilix/appwindow.d:685 source/gx/tilix/prefeditor/prefdialog.d:1596
 msgid "New Window"
 msgstr "Finestra nova"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:21
-#: source/gx/tilix/prefeditor/prefdialog.d:1554 source/gx/tilix/session.d:1606
+#: source/gx/tilix/prefeditor/prefdialog.d:1596 source/gx/tilix/session.d:1606
 msgid "New Session"
 msgstr "Sessió nova"
 
 #: data/pkg/desktop/com.gexperts.Tilix.desktop.in:25
-#: source/gx/tilix/appwindow.d:696 source/gx/tilix/prefeditor/prefdialog.d:263
+#: source/gx/tilix/appwindow.d:702 source/gx/tilix/prefeditor/prefdialog.d:263
 #: source/gx/tilix/prefeditor/prefdialog.d:414
 msgid "Preferences"
 msgstr "Preferències"
@@ -312,8 +382,8 @@ msgstr "Obre les preferències"
 
 #: data/resources/ui/shortcuts.ui:37
 msgctxt "shortcut window"
-msgid "View configured shortcuts"
-msgstr "Mostra les dreceres configurades"
+msgid "Show keyboard shortcuts"
+msgstr "Mostra les dreceres del teclat"
 
 #: data/resources/ui/shortcuts.ui:45
 msgctxt "shortcut window"
@@ -631,10 +701,9 @@ msgid "Select all"
 msgstr "Selecciona-ho tot"
 
 #: data/resources/ui/shortcuts.ui:437
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Unselect all"
-msgstr "Selecciona-ho tot"
+msgstr "Desmarcar-ho tot"
 
 #: data/resources/ui/shortcuts.ui:445
 msgctxt "shortcut window"
@@ -802,9 +871,9 @@ msgid "Your GTK version is too old, you need at least GTK %d.%d.%d!"
 msgstr "La versió del GTK és massa antiga, necessiteu almenys el GTK %d.%d.%d!"
 
 #: source/app.d:150
-#, fuzzy, c-format
+#, c-format
 msgid "Your VTE version is too old, you need at least VTE %d.%d!"
-msgstr "La versió del GTK és massa antiga, necessiteu almenys el GTK %d.%d.%d!"
+msgstr "La vostra versió VTE és massa antiga, necessiteu almenys VTE %d. %d!"
 
 #: source/app.d:166
 msgid "Unexpected exception occurred"
@@ -858,73 +927,74 @@ msgid "Do not show this again"
 msgstr "No ho mostris més"
 
 #. TRANSLATORS: Please add your name to the list of translators if you want to be credited for the translations you have done.
-#: source/gx/tilix/application.d:272
+#: source/gx/tilix/application.d:273
 msgid "translator-credits"
 msgstr ""
 "Carles Ferrando Garcia <carles.ferrando@gmail.com> 2019\n"
-"Artur Vicedo <arturovc89@hotmail.com> 2019"
+"Artur Vicedo <arturovc89@hotmail.com> 2019-2023\n"
+"Maite Guix <maite.guix@me.com> 2022"
 
-#: source/gx/tilix/application.d:281
+#: source/gx/tilix/application.d:282
 msgid "Credits"
 msgstr "Crèdits"
 
-#: source/gx/tilix/application.d:658
+#: source/gx/tilix/application.d:679
 msgid "DIRECTORY"
 msgstr "DIRECTORI"
 
-#: source/gx/tilix/application.d:658
+#: source/gx/tilix/application.d:679
 msgid "Set the working directory of the terminal"
 msgstr "Configura el directori de treball del terminal"
 
-#: source/gx/tilix/application.d:659
+#: source/gx/tilix/application.d:680
 msgid "PROFILE_NAME"
 msgstr "NOM_DEL_PERFIL"
 
-#: source/gx/tilix/application.d:659
+#: source/gx/tilix/application.d:680
 msgid "Set the starting profile"
 msgstr "Estableix el perfil inicial"
 
-#: source/gx/tilix/application.d:660
+#: source/gx/tilix/application.d:681
 msgid "Set the title of the new terminal"
 msgstr "Estableix el títol del terminal nou"
 
-#: source/gx/tilix/application.d:660
+#: source/gx/tilix/application.d:681
 msgid "TITLE"
 msgstr "TÍTOL"
 
-#: source/gx/tilix/application.d:661
+#: source/gx/tilix/application.d:682
 msgid "Open the specified session"
 msgstr "Obre la sessió especificada"
 
-#: source/gx/tilix/application.d:661
+#: source/gx/tilix/application.d:682
 msgid "SESSION_NAME"
 msgstr "NOM_DE_SESSIÓ"
 
-#: source/gx/tilix/application.d:663
+#: source/gx/tilix/application.d:684
 msgid "ACTION_NAME"
 msgstr "NOM_DE_ACCIÓ"
 
-#: source/gx/tilix/application.d:663
+#: source/gx/tilix/application.d:684
 msgid "Send an action to current Tilix instance"
 msgstr "Envia una acció a la instància Tilix actual"
 
-#: source/gx/tilix/application.d:665
+#: source/gx/tilix/application.d:686
 msgid "COMMAND"
 msgstr "Ordre"
 
-#: source/gx/tilix/application.d:665
+#: source/gx/tilix/application.d:686
 msgid "Execute the parameter as a command"
 msgstr "Executa el paràmetre com una ordre"
 
-#: source/gx/tilix/application.d:666
+#: source/gx/tilix/application.d:687
 msgid "Maximize the terminal window"
 msgstr "Maximitza la finestra del terminal"
 
-#: source/gx/tilix/application.d:667
+#: source/gx/tilix/application.d:688
 msgid "Minimize the terminal window"
 msgstr "Minimitza la finestra del terminal"
 
-#: source/gx/tilix/application.d:668
+#: source/gx/tilix/application.d:689
 msgid ""
 "Override the preferred window style to use, one of: normal,disable-csd,"
 "disable-csd-hide-toolbar,borderless"
@@ -932,55 +1002,53 @@ msgstr ""
 "Substitueix l'estil de finestra preferit, un dels següents: normal,disable-"
 "csd,disable-csd-hide-toolbar,borderless"
 
-#: source/gx/tilix/application.d:668
+#: source/gx/tilix/application.d:689
 msgid "WINDOW_STYLE"
 msgstr "ESTIL_FINESTRA"
 
-#: source/gx/tilix/application.d:669
+#: source/gx/tilix/application.d:690
 msgid "Full-screen the terminal window"
 msgstr "Finestra del terminal a pantalla completa"
 
-#: source/gx/tilix/application.d:670
+#: source/gx/tilix/application.d:691
 msgid "Focus the existing window"
 msgstr "Focus en la finestra existent"
 
-#: source/gx/tilix/application.d:671
+#: source/gx/tilix/application.d:692
 msgid "Start additional instance as new process (Not Recommended)"
 msgstr "Comença instancies addicionals com un procès nou (No recomanat)"
 
-#: source/gx/tilix/application.d:672
+#: source/gx/tilix/application.d:693
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: source/gx/tilix/application.d:672
+#: source/gx/tilix/application.d:693
 msgid ""
 "Set the window size; for example: 80x24, or 80x24+200+200 (COLSxROWS+X+Y)"
 msgstr ""
 "Establiu la mida de la finestra; per exemple 80x24 o 80x24+200+200 "
 "(COLUMNESxFILES+X+Y)"
 
-#: source/gx/tilix/application.d:673
+#: source/gx/tilix/application.d:694
 msgid ""
 "Opens a window in quake mode or toggles existing quake mode window visibility"
 msgstr ""
 "Obre una finestra en mode Quake o commuta la visibilitat de la finestra en "
 "el mode Quake existent"
 
-#: source/gx/tilix/application.d:674
-#, fuzzy
+#: source/gx/tilix/application.d:695
 msgid "Show the Tilix and dependent component versions"
-msgstr "Mostra les versions del Tilix i dels seus components"
+msgstr "Mostra les versions de Tilix i dels components dependents"
 
-#: source/gx/tilix/application.d:675
+#: source/gx/tilix/application.d:696
 msgid "Show the Tilix preferences dialog directly"
 msgstr "Mostra el diàleg de preferències del Tilix directament"
 
-#: source/gx/tilix/application.d:676
-#, fuzzy
+#: source/gx/tilix/application.d:697
 msgid "GROUP_NAME"
-msgstr "NOM_DEL_PERFIL"
+msgstr "NOM_GRUP"
 
-#: source/gx/tilix/application.d:676
+#: source/gx/tilix/application.d:697
 msgid ""
 "Group tilix instances into different processes (Experimental, not "
 "recommended)"
@@ -988,20 +1056,20 @@ msgstr ""
 "Agrupa les instancies del Tilix en processos diferents (experimental, no "
 "recomanat)"
 
-#: source/gx/tilix/application.d:679
+#: source/gx/tilix/application.d:700
 msgid "Hidden argument to pass terminal UUID"
 msgstr "Argument ocult per a passar al terminal UUID"
 
-#: source/gx/tilix/application.d:679
+#: source/gx/tilix/application.d:700
 msgid "TERMINAL_UUID"
 msgstr "TERMINAL_UUID"
 
-#: source/gx/tilix/application.d:696
+#: source/gx/tilix/application.d:717
 #, c-format
 msgid "The application ID %s is not valid"
 msgstr "La ID de l'aplicació %s no és vàlida"
 
-#: source/gx/tilix/application.d:854
+#: source/gx/tilix/application.d:883
 msgid ""
 "There appears to be an issue with the configuration of the terminal.\n"
 "This issue is not serious, but correcting it will improve your experience.\n"
@@ -1012,107 +1080,107 @@ msgstr ""
 "experiència.\n"
 "Feu clic a l’enllaç següent per obtenir més informació:"
 
-#: source/gx/tilix/application.d:855
+#: source/gx/tilix/application.d:884
 msgid "Configuration Issue Detected"
 msgstr "S'ha detectat un problema amb la configuració"
 
-#: source/gx/tilix/application.d:867
+#: source/gx/tilix/application.d:896
 msgid "Do not show this message again"
 msgstr "No mostris més aquest missatge"
 
-#: source/gx/tilix/appwindow.d:320
+#: source/gx/tilix/appwindow.d:324
 msgid "Create a new session"
 msgstr "Crea una sessió nova"
 
-#: source/gx/tilix/appwindow.d:334
+#: source/gx/tilix/appwindow.d:338
 msgid "View session sidebar"
 msgstr "Mostra la barra lateral de la sessió"
 
-#: source/gx/tilix/appwindow.d:369
+#: source/gx/tilix/appwindow.d:373
 msgid "Add terminal right"
 msgstr "Afegeix el terminal a la dreta"
 
-#: source/gx/tilix/appwindow.d:373
+#: source/gx/tilix/appwindow.d:377
 msgid "Add terminal down"
 msgstr "Afegeix el terminal a sota"
 
-#: source/gx/tilix/appwindow.d:379
+#: source/gx/tilix/appwindow.d:383
 msgid "Find text in terminal"
 msgstr "Cerca text al terminal"
 
-#: source/gx/tilix/appwindow.d:602
+#: source/gx/tilix/appwindow.d:606
 msgid "Enter a new name for the session"
 msgstr "Introduïu un nom nou per a la sessió"
 
-#: source/gx/tilix/appwindow.d:604
+#: source/gx/tilix/appwindow.d:608
 msgid "Change Session Name"
 msgstr "Canvia el nom de la sessió"
 
-#: source/gx/tilix/appwindow.d:683
+#: source/gx/tilix/appwindow.d:689
 msgid "Open…"
 msgstr "Obre…"
 
-#: source/gx/tilix/appwindow.d:684 source/gx/tilix/appwindow.d:1552
+#: source/gx/tilix/appwindow.d:690 source/gx/tilix/appwindow.d:1558
 #: source/gx/tilix/prefeditor/profileeditor.d:948
-#: source/gx/tilix/terminal/terminal.d:3662
+#: source/gx/tilix/terminal/terminal.d:3665
 msgid "Save"
 msgstr "Desa"
 
-#: source/gx/tilix/appwindow.d:685
+#: source/gx/tilix/appwindow.d:691
 msgid "Save As…"
 msgstr "Anomena i desa…"
 
-#: source/gx/tilix/appwindow.d:691
+#: source/gx/tilix/appwindow.d:697
 msgid "Name…"
 msgstr "Nom…"
 
-#: source/gx/tilix/appwindow.d:692
+#: source/gx/tilix/appwindow.d:698
 msgid "Synchronize Input"
 msgstr "Sincronitza l'entrada"
 
-#: source/gx/tilix/appwindow.d:697
+#: source/gx/tilix/appwindow.d:703
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres del teclat"
 
-#: source/gx/tilix/appwindow.d:698
+#: source/gx/tilix/appwindow.d:704
 msgid "About Tilix"
 msgstr "Quant al Tilix"
 
-#: source/gx/tilix/appwindow.d:705
+#: source/gx/tilix/appwindow.d:711
 msgid "GC"
-msgstr "Recollida de deixalles (GC)"
+msgstr "Recollida de memòria brossa (GC)"
 
-#: source/gx/tilix/appwindow.d:1082
-#: source/gx/tilix/prefeditor/prefdialog.d:1164 source/gx/tilix/session.d:1222
+#: source/gx/tilix/appwindow.d:1088
+#: source/gx/tilix/prefeditor/prefdialog.d:1201 source/gx/tilix/session.d:1222
 msgid "Default"
 msgstr "Per defecte"
 
-#: source/gx/tilix/appwindow.d:1191
+#: source/gx/tilix/appwindow.d:1197
 msgid "There are multiple sessions open, close anyway?"
 msgstr "Hi ha múltiples sessions obertes, voleu tancar-ho de totes maneres?"
 
-#: source/gx/tilix/appwindow.d:1455
+#: source/gx/tilix/appwindow.d:1461
 #: source/gx/tilix/prefeditor/profileeditor.d:961
 msgid "All JSON Files"
 msgstr "Totes el fitxers JSON"
 
-#: source/gx/tilix/appwindow.d:1459
-#: source/gx/tilix/prefeditor/prefdialog.d:1182
+#: source/gx/tilix/appwindow.d:1465
+#: source/gx/tilix/prefeditor/prefdialog.d:1219
 #: source/gx/tilix/prefeditor/profileeditor.d:965
-#: source/gx/tilix/terminal/terminal.d:3672
+#: source/gx/tilix/terminal/terminal.d:3675
 msgid "All Files"
 msgstr "Totes els fitxers"
 
-#: source/gx/tilix/appwindow.d:1468
+#: source/gx/tilix/appwindow.d:1474
 #, c-format
 msgid "Filename '%s' does not exist"
 msgstr "El fitxer «%s» no existeix"
 
-#: source/gx/tilix/appwindow.d:1500
+#: source/gx/tilix/appwindow.d:1506
 msgid "Load Session"
 msgstr "Carrega la sessió"
 
-#: source/gx/tilix/appwindow.d:1503 source/gx/tilix/appwindow.d:1552
+#: source/gx/tilix/appwindow.d:1509 source/gx/tilix/appwindow.d:1558
 #: source/gx/tilix/bookmark/bmchooser.d:127
 #: source/gx/tilix/bookmark/bmeditor.d:151 source/gx/tilix/closedialog.d:202
 #: source/gx/tilix/prefeditor/advdialog.d:192
@@ -1121,51 +1189,49 @@ msgstr "Carrega la sessió"
 #: source/gx/tilix/terminal/advpaste.d:137 source/gx/tilix/terminal/layout.d:33
 #: source/gx/tilix/terminal/password.d:371
 #: source/gx/tilix/terminal/password.d:493
-#: source/gx/tilix/terminal/terminal.d:3662
+#: source/gx/tilix/terminal/terminal.d:3665
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: source/gx/tilix/appwindow.d:1503
+#: source/gx/tilix/appwindow.d:1509
 msgid "Open"
 msgstr "Obre"
 
-#: source/gx/tilix/appwindow.d:1526
+#: source/gx/tilix/appwindow.d:1532
 msgid "Could not load session due to unexpected error."
 msgstr "No s'ha pogut carregar degut a un error inesperat."
 
-#: source/gx/tilix/appwindow.d:1526
+#: source/gx/tilix/appwindow.d:1532
 msgid "Error Loading Session"
 msgstr "S'ha produït un error en carregar la sessió"
 
-#: source/gx/tilix/appwindow.d:1549
+#: source/gx/tilix/appwindow.d:1555
 msgid "Save Session"
 msgstr "Desa la sessió"
 
-#: source/gx/tilix/appwindow.d:1584 source/gx/tilix/appwindow.d:1603
-#, fuzzy
+#: source/gx/tilix/appwindow.d:1590 source/gx/tilix/appwindow.d:1609
 msgid "Could not save session due to unexpected error."
-msgstr "No s'ha pogut carregar degut a un error inesperat."
+msgstr "No s'ha pogut desar la sessió a causa d'un error inesperat."
 
-#: source/gx/tilix/appwindow.d:1584 source/gx/tilix/appwindow.d:1603
-#, fuzzy
+#: source/gx/tilix/appwindow.d:1590 source/gx/tilix/appwindow.d:1609
 msgid "Error Saving Session"
-msgstr "S'ha produït un error en carregar la sessió"
+msgstr "Error en desar la sessió"
 
-#: source/gx/tilix/appwindow.d:1710
+#: source/gx/tilix/appwindow.d:1723
 msgid "Quake mode is not supported under Wayland, running as normal window"
 msgstr ""
 "El mode Quake no és compatible amb el Wayland, s'executarà com una finestra "
 "normal"
 
-#: source/gx/tilix/appwindow.d:1712
+#: source/gx/tilix/appwindow.d:1725
 msgid "Quake Mode Not Supported"
 msgstr "El mode Quake no és compatible"
 
-#: source/gx/tilix/appwindow.d:2181
+#: source/gx/tilix/appwindow.d:2200
 msgid "New output displayed"
 msgstr "Es mostra la sortida nova"
 
-#: source/gx/tilix/appwindow.d:2189
+#: source/gx/tilix/appwindow.d:2208
 msgid "Close session"
 msgstr "Tanca la sessió"
 
@@ -1280,7 +1346,7 @@ msgstr "Títol"
 #: source/gx/tilix/closedialog.d:170
 #, c-format
 msgid "Window (%s)"
-msgstr "Finestra  (%s)"
+msgstr "Finestra (%s)"
 
 #: source/gx/tilix/closedialog.d:173
 #, c-format
@@ -1781,7 +1847,7 @@ msgid "Enable shortcuts"
 msgstr "Habilita les dreceres de teclat"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:805
-msgid "Set default"
+msgid "Restore default shortcut for this action"
 msgstr "Estableix per defecte"
 
 #: source/gx/tilix/prefeditor/prefdialog.d:916
@@ -1794,296 +1860,302 @@ msgid ""
 "The shortcut %s is already assigned to %s.\n"
 "Disable the shortcut for the other action and assign here instead?"
 msgstr ""
-"La drecera %s ja està assignada a  %s.\n"
+"La drecera %s ja està assignada a %s.\n"
 "Voleu desactivar la drecera de l’altra acció i assignar-la aquí?"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1135
+#: source/gx/tilix/prefeditor/prefdialog.d:1172
 msgid "Window style"
 msgstr "Estil de la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1137
+#: source/gx/tilix/prefeditor/prefdialog.d:1174
 msgid "Borderless"
 msgstr "Sense vores"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1137
+#: source/gx/tilix/prefeditor/prefdialog.d:1174
 msgid "Disable CSD"
 msgstr "Inhabilita el CSD"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1137
+#: source/gx/tilix/prefeditor/prefdialog.d:1174
 msgid "Disable CSD, hide toolbar"
 msgstr "Inhabilita el CSD, amaga la barra d'eines"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1137
-#: source/gx/tilix/prefeditor/prefdialog.d:1151
+#: source/gx/tilix/prefeditor/prefdialog.d:1174
+#: source/gx/tilix/prefeditor/prefdialog.d:1188
 msgid "Normal"
 msgstr "Normal"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1141
+#: source/gx/tilix/prefeditor/prefdialog.d:1178
 msgid "Window restart required"
 msgstr "Cal reiniciar la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1150
+#: source/gx/tilix/prefeditor/prefdialog.d:1187
 msgid "Terminal title style"
 msgstr "Estil del títol del terminal"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1151
+#: source/gx/tilix/prefeditor/prefdialog.d:1188
 #: source/gx/tilix/prefeditor/profileeditor.d:447
 msgid "None"
 msgstr "Cap"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1151
+#: source/gx/tilix/prefeditor/prefdialog.d:1188
 msgid "Small"
 msgstr "Menut"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1156
-#: source/gx/tilix/prefeditor/prefdialog.d:1350
+#: source/gx/tilix/prefeditor/prefdialog.d:1193
+#: source/gx/tilix/prefeditor/prefdialog.d:1387
 msgid "Tab position"
 msgstr "Posició del tabulador"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1157
-#: source/gx/tilix/prefeditor/prefdialog.d:1351
-#: source/gx/tilix/prefeditor/prefdialog.d:1358
+#: source/gx/tilix/prefeditor/prefdialog.d:1194
+#: source/gx/tilix/prefeditor/prefdialog.d:1388
+#: source/gx/tilix/prefeditor/prefdialog.d:1395
 msgid "Bottom"
 msgstr "Baix"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1157
-#: source/gx/tilix/prefeditor/prefdialog.d:1344
-#: source/gx/tilix/prefeditor/prefdialog.d:1351
+#: source/gx/tilix/prefeditor/prefdialog.d:1194
+#: source/gx/tilix/prefeditor/prefdialog.d:1381
+#: source/gx/tilix/prefeditor/prefdialog.d:1388
 msgid "Left"
 msgstr "Esquerra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1157
-#: source/gx/tilix/prefeditor/prefdialog.d:1344
-#: source/gx/tilix/prefeditor/prefdialog.d:1351
+#: source/gx/tilix/prefeditor/prefdialog.d:1194
+#: source/gx/tilix/prefeditor/prefdialog.d:1381
+#: source/gx/tilix/prefeditor/prefdialog.d:1388
 msgid "Right"
 msgstr "Dreta"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1157
-#: source/gx/tilix/prefeditor/prefdialog.d:1351
-#: source/gx/tilix/prefeditor/prefdialog.d:1358
+#: source/gx/tilix/prefeditor/prefdialog.d:1194
+#: source/gx/tilix/prefeditor/prefdialog.d:1388
+#: source/gx/tilix/prefeditor/prefdialog.d:1395
 msgid "Top"
 msgstr "Dalt"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1163
+#: source/gx/tilix/prefeditor/prefdialog.d:1200
 msgid "Theme variant"
 msgstr "Variant del tema"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1164
+#: source/gx/tilix/prefeditor/prefdialog.d:1201
 msgid "Dark"
 msgstr "Fosc"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1164
+#: source/gx/tilix/prefeditor/prefdialog.d:1201
 msgid "Light"
 msgstr "Clar"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1170
+#: source/gx/tilix/prefeditor/prefdialog.d:1207
 msgid "Background image"
 msgstr "Imatge de fons"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1172
+#: source/gx/tilix/prefeditor/prefdialog.d:1209
 msgid "Select Image"
 msgstr "Seleccioneu una imatge"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1175
+#: source/gx/tilix/prefeditor/prefdialog.d:1212
 msgid "All Image Files"
 msgstr "Tots els fitxers d'imatge"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1196
+#: source/gx/tilix/prefeditor/prefdialog.d:1233
 msgid "Reset background image"
 msgstr "Reinicieu la imatge de fons"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1202
-#: source/gx/tilix/prefeditor/prefdialog.d:1344
+#: source/gx/tilix/prefeditor/prefdialog.d:1239
+#: source/gx/tilix/prefeditor/prefdialog.d:1381
 msgid "Center"
 msgstr "Centre"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1202
+#: source/gx/tilix/prefeditor/prefdialog.d:1239
 msgid "Scale"
 msgstr "Escala"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1202
+#: source/gx/tilix/prefeditor/prefdialog.d:1239
 msgid "Stretch"
 msgstr "Amplia"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1202
+#: source/gx/tilix/prefeditor/prefdialog.d:1239
 msgid "Tile"
 msgstr "Tessel·la"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1221
+#: source/gx/tilix/prefeditor/prefdialog.d:1258
 msgid "Default session name"
 msgstr "Nom de la sessió per defecte"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1236
+#: source/gx/tilix/prefeditor/prefdialog.d:1273
 msgid "Application title"
 msgstr "Títol de l'aplicació"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1254
+#: source/gx/tilix/prefeditor/prefdialog.d:1291
 msgid "Enable transparency, requires re-start"
 msgstr "Habilita la transparència (requereix reiniciar)"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1260
+#: source/gx/tilix/prefeditor/prefdialog.d:1297
 msgid "Use a wide handle for splitters"
 msgstr "Usa un separador ample per als divisors"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1265
+#: source/gx/tilix/prefeditor/prefdialog.d:1302
 msgid "Place the sidebar on the right"
 msgstr "Col·loca la barra lateral a la dreta"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1269
+#: source/gx/tilix/prefeditor/prefdialog.d:1306
 msgid "Show the terminal title even if it's the only terminal"
 msgstr "Mostra el títol del terminal encara que sigui l’únic terminal"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1274
+#: source/gx/tilix/prefeditor/prefdialog.d:1311
 msgid "Use overlay scrollbars (Application restart required)"
 msgstr "Usa barres de desplaçament superposades (cal reiniciar l'aplicació)"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1279
+#: source/gx/tilix/prefeditor/prefdialog.d:1316
 msgid "Use tabs instead of sidebar (Application restart required)"
 msgstr ""
 "Usa pestanyes en compte de la barra lateral (cal reiniciar l'aplicació)"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1311
+#: source/gx/tilix/prefeditor/prefdialog.d:1348
 msgid "Size"
 msgstr "Mida"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1322
+#: source/gx/tilix/prefeditor/prefdialog.d:1359
 msgid "Height percent"
 msgstr "Alçada percentual"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1333
+#: source/gx/tilix/prefeditor/prefdialog.d:1370
 msgid "Width percent"
 msgstr "Amplada percentual"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1343
+#: source/gx/tilix/prefeditor/prefdialog.d:1380
 msgid "Alignment"
 msgstr "Alineament"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1357
+#: source/gx/tilix/prefeditor/prefdialog.d:1394
 msgid "Window position"
 msgstr "Posició de la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1366
+#: source/gx/tilix/prefeditor/prefdialog.d:1403
 #: source/gx/tilix/prefeditor/profileeditor.d:556
 msgid "Options"
 msgstr "Opcions"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1374
+#: source/gx/tilix/prefeditor/prefdialog.d:1411
 msgid "Show terminal on all workspaces"
 msgstr "Mostra el terminal en tots els espais de treball"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1386
+#: source/gx/tilix/prefeditor/prefdialog.d:1423
 msgid "Hide window when focus is lost"
 msgstr "Amaga la finestra quan es perdi el focus"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1390
+#: source/gx/tilix/prefeditor/prefdialog.d:1427
 msgid "Delay hiding window by (ms)"
 msgstr "Retard abans d'ocultar la finestra de (ms)"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1403
+#: source/gx/tilix/prefeditor/prefdialog.d:1440
 msgid "Hide the toolbar of the window"
 msgstr "Amaga la barra d'eines de la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1418
+#: source/gx/tilix/prefeditor/prefdialog.d:1455
 msgid "Keep window always on top"
 msgstr "Manté la finestra sempre a sobre"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1423
+#: source/gx/tilix/prefeditor/prefdialog.d:1460
 msgid "Display terminal on active monitor"
 msgstr "Mostra el terminal en el monitor actiu"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1430
+#: source/gx/tilix/prefeditor/prefdialog.d:1467
 msgid "Display on specific monitor"
 msgstr "Mostra en un monitor específic"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1433
+#: source/gx/tilix/prefeditor/prefdialog.d:1470
 msgid "Primary Monitor"
 msgstr "Monitor primari"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1436
+#: source/gx/tilix/prefeditor/prefdialog.d:1473
 msgid "Monitor "
 msgstr "Monitor "
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1496
+#: source/gx/tilix/prefeditor/prefdialog.d:1533
 msgid "Behavior"
 msgstr "Comportament"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1502
+#: source/gx/tilix/prefeditor/prefdialog.d:1539
 msgid "Prompt when creating a new session"
 msgstr "Pregunta quan es crei una sessió nova"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1507
+#: source/gx/tilix/prefeditor/prefdialog.d:1544
 msgid "Focus a terminal when the mouse moves over it"
 msgstr "El terminal pren el focus quan el ratolí passa per sobre"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1512
+#: source/gx/tilix/prefeditor/prefdialog.d:1549
 msgid "Autohide the mouse pointer when typing"
 msgstr "Amaga el punter del ratolí quan s'escriu"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1517
+#: source/gx/tilix/prefeditor/prefdialog.d:1554
 msgid "Close terminal by clicking middle mouse button on title"
 msgstr ""
 "Tanca el terminal fent clic amb el botó del mig del ratolí sobre el títol"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1522
+#: source/gx/tilix/prefeditor/prefdialog.d:1559
 msgid "Zoom the terminal using <Control> and scroll wheel"
 msgstr "Amplia el terminal usant <Control> i la roda de desplaçament"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1527
+#: source/gx/tilix/prefeditor/prefdialog.d:1564
 msgid "Require the <Control> modifier to edit title on click"
-msgstr "Requereix el modificador <Control>  per editar el títol al fer clic"
+msgstr "Requereix el modificador <Control> per a editar el títol en fer clic"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1532
+#: source/gx/tilix/prefeditor/prefdialog.d:1569
 msgid "Close window when last session is closed"
 msgstr "Tanca la finestra quan l'última sessió es tanqui"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1537
+#: source/gx/tilix/prefeditor/prefdialog.d:1574
 msgid "Save and restore window state"
 msgstr "Desa i restaura l'estat de la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1543
+#: source/gx/tilix/prefeditor/prefdialog.d:1579
+msgid "Always search using regular expressions"
+msgstr "Cercar sempre amb expressions regulars"
+
+#: source/gx/tilix/prefeditor/prefdialog.d:1585
 msgid "Send desktop notification on process complete"
 msgstr "Envia una notificació d'escriptori al completar el procés"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1551
+#: source/gx/tilix/prefeditor/prefdialog.d:1593
 msgid "On new instance"
 msgstr "En una instància nova"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1554
+#: source/gx/tilix/prefeditor/prefdialog.d:1596
 msgid "Focus Window"
 msgstr "Enfoca la finestra"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1554
+#: source/gx/tilix/prefeditor/prefdialog.d:1596
 msgid "Split Down"
 msgstr "Divideix a sota"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1554
+#: source/gx/tilix/prefeditor/prefdialog.d:1596
 msgid "Split Right"
 msgstr "Divideix a la dreta"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1560
-#: source/gx/tilix/terminal/terminal.d:1850
+#: source/gx/tilix/prefeditor/prefdialog.d:1602
+#: source/gx/tilix/terminal/terminal.d:1851
 msgid "Clipboard"
 msgstr "Porta-retalls"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1566
+#: source/gx/tilix/prefeditor/prefdialog.d:1608
 msgid "Always use advanced paste dialog"
 msgstr "Utilitza sempre el diàleg d'enganxat avançat"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1571
+#: source/gx/tilix/prefeditor/prefdialog.d:1613
 msgid "Warn when attempting unsafe paste"
 msgstr "Avisa quan s'intenti enganxar de forma no segura"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1576
+#: source/gx/tilix/prefeditor/prefdialog.d:1618
 msgid "Strip first character of paste if comment or variable declaration"
 msgstr ""
 "Elimina el primer caràcter de l'enganxat si és un comentari o una declaració "
 "de variable"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1581
+#: source/gx/tilix/prefeditor/prefdialog.d:1623
 msgid "Strip trailing whitespaces and linebreak characters on paste"
 msgstr ""
+"Elimina els espais en blanc al final i els caràcters de salt de línia a "
+"l'enganxar"
 
-#: source/gx/tilix/prefeditor/prefdialog.d:1586
+#: source/gx/tilix/prefeditor/prefdialog.d:1628
 msgid "Automatically copy text to clipboard when selecting"
 msgstr "En seleccionar, copia automàticament el text al porta-retalls"
 
@@ -2247,7 +2319,7 @@ msgstr "ID: %s"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:513
 msgid "Color scheme"
-msgstr "Esquema de color"
+msgstr "Esquema de colors"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:523
 #: source/gx/tilix/prefeditor/profileeditor.d:988
@@ -2289,11 +2361,11 @@ msgstr "Fons"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:664
 msgid "Select Cursor Foreground Color"
-msgstr "Seleccioneu  el color del cursor al primer pla"
+msgstr "Seleccioneu el color de primer pla del cursor"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:666
 msgid "Select Cursor Background Color"
-msgstr "Seleccioneu  el color del cursor al fons"
+msgstr "Seleccioneu el color de fons del cursor"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:671
 msgid "Highlight"
@@ -2376,7 +2448,7 @@ msgstr "Selecciona el color %s clar"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:945
 msgid "Export Color Scheme"
-msgstr "Exporta l'esquema de color"
+msgstr "Exporta l'esquema de colors"
 
 #: source/gx/tilix/prefeditor/profileeditor.d:1022
 msgid "Show scrollbar"
@@ -2590,43 +2662,43 @@ msgstr "Finestra"
 msgid "Help"
 msgstr "Ajuda"
 
-#: source/gx/tilix/preferences.d:252
+#: source/gx/tilix/preferences.d:256
 msgid "UpdateState"
 msgstr "ActualitzaEstat"
 
-#: source/gx/tilix/preferences.d:253
+#: source/gx/tilix/preferences.d:257
 msgid "ExecuteCommand"
 msgstr "ExecutaOrdre"
 
-#: source/gx/tilix/preferences.d:254
+#: source/gx/tilix/preferences.d:258
 msgid "SendNotification"
 msgstr "EnviaNotificació"
 
-#: source/gx/tilix/preferences.d:255
+#: source/gx/tilix/preferences.d:259
 msgid "UpdateTitle"
 msgstr "ActualitzaTítol"
 
-#: source/gx/tilix/preferences.d:256
+#: source/gx/tilix/preferences.d:260
 msgid "PlayBell"
 msgstr "FesSonarAvís"
 
-#: source/gx/tilix/preferences.d:257
+#: source/gx/tilix/preferences.d:261
 msgid "SendText"
 msgstr "EnviaText"
 
-#: source/gx/tilix/preferences.d:258
+#: source/gx/tilix/preferences.d:262
 msgid "InsertPassword"
 msgstr "InsereixContrasenya"
 
-#: source/gx/tilix/preferences.d:259
+#: source/gx/tilix/preferences.d:263
 msgid "UpdateBadge"
 msgstr "ActualitzaInsígnia"
 
-#: source/gx/tilix/preferences.d:260
+#: source/gx/tilix/preferences.d:264
 msgid "RunProcess"
 msgstr "ExecutaProcès"
 
-#: source/gx/tilix/preferences.d:370
+#: source/gx/tilix/preferences.d:374
 #, c-format
 msgid "%s (Copy)"
 msgstr "%s (Copia)"
@@ -2640,7 +2712,7 @@ msgid "Could not locate session for dropped terminal"
 msgstr "No s'ha pogut localitzar la sessió per al terminal caigut"
 
 #: source/gx/tilix/sidebar.d:546 source/gx/tilix/terminal/terminal.d:383
-#: source/gx/tilix/terminal/terminal.d:1860
+#: source/gx/tilix/terminal/terminal.d:1861
 msgid "Close"
 msgstr "Tanca"
 
@@ -2674,8 +2746,8 @@ msgid "Advanced Paste"
 msgstr "Enganxament avançat"
 
 #: source/gx/tilix/terminal/advpaste.d:137
-#: source/gx/tilix/terminal/terminal.d:1824
-#: source/gx/tilix/terminal/terminal.d:1842
+#: source/gx/tilix/terminal/terminal.d:1825
+#: source/gx/tilix/terminal/terminal.d:1843
 msgid "Paste"
 msgstr "Enganxa"
 
@@ -2733,35 +2805,39 @@ msgstr "Afegeix una contrasenya"
 msgid "Edit Password"
 msgstr "Edita la contrasenya"
 
-#: source/gx/tilix/terminal/search.d:125
+#: source/gx/tilix/terminal/search.d:128
 msgid "Search Options"
 msgstr "Opcions de cerca"
 
-#: source/gx/tilix/terminal/search.d:138
+#: source/gx/tilix/terminal/search.d:141
 msgid "Find next"
 msgstr "Cerca el següent"
 
-#: source/gx/tilix/terminal/search.d:144
+#: source/gx/tilix/terminal/search.d:147
 msgid "Find previous"
 msgstr "Cerca l'anterior"
 
-#: source/gx/tilix/terminal/search.d:191
+#: source/gx/tilix/terminal/search.d:155
+msgid "Close search box"
+msgstr "Tanca la caixa de cerca"
+
+#: source/gx/tilix/terminal/search.d:205
 msgid "Match case"
 msgstr "Fes coincidir les majúscules"
 
-#: source/gx/tilix/terminal/search.d:192
+#: source/gx/tilix/terminal/search.d:206
 msgid "Match entire word only"
 msgstr "Fes coincidir la paraula sencera"
 
-#: source/gx/tilix/terminal/search.d:193
-msgid "Match as regular expression"
-msgstr "Fes coincidir amb l'expressió regular"
-
-#: source/gx/tilix/terminal/search.d:194
+#: source/gx/tilix/terminal/search.d:207
 msgid "Wrap around"
 msgstr "Torna a l'inici"
 
-#: source/gx/tilix/terminal/search.d:219
+#: source/gx/tilix/terminal/search.d:208
+msgid "Match as regular expression"
+msgstr "Fes coincidir amb l'expressió regular"
+
+#: source/gx/tilix/terminal/search.d:243
 #, c-format
 msgid ""
 "Search '%s' is not a valid regex\n"
@@ -2772,7 +2848,7 @@ msgstr ""
 
 #: source/gx/tilix/terminal/terminal.d:391
 #: source/gx/tilix/terminal/terminal.d:1349
-#: source/gx/tilix/terminal/terminal.d:1859
+#: source/gx/tilix/terminal/terminal.d:1860
 msgid "Maximize"
 msgstr "Maximitza"
 
@@ -2875,136 +2951,142 @@ msgid "Not Enabled"
 msgstr "No habilitat"
 
 #: source/gx/tilix/terminal/terminal.d:1346
-#: source/gx/tilix/terminal/terminal.d:1859
+#: source/gx/tilix/terminal/terminal.d:1860
 msgid "Restore"
 msgstr "Restaura"
 
-#: source/gx/tilix/terminal/terminal.d:1708
+#: source/gx/tilix/terminal/terminal.d:1709
 msgid "Tilix Custom Notification"
 msgstr "Notificació personalitzada del Tilix"
 
-#: source/gx/tilix/terminal/terminal.d:1809
+#: source/gx/tilix/terminal/terminal.d:1810
 msgid "Open Link"
 msgstr "Obre l'enllaç"
 
-#: source/gx/tilix/terminal/terminal.d:1810
+#: source/gx/tilix/terminal/terminal.d:1811
 msgid "Copy Link Address"
 msgstr "Copia l'enllaç"
 
-#: source/gx/tilix/terminal/terminal.d:1820
-#: source/gx/tilix/terminal/terminal.d:1830
+#: source/gx/tilix/terminal/terminal.d:1821
+#: source/gx/tilix/terminal/terminal.d:1831
 msgid "Copy"
 msgstr "Copia"
 
-#: source/gx/tilix/terminal/terminal.d:1822
-#: source/gx/tilix/terminal/terminal.d:1836
+#: source/gx/tilix/terminal/terminal.d:1823
+#: source/gx/tilix/terminal/terminal.d:1837
 msgid "Copy as HTML"
 msgstr "Copia com a HTML"
 
-#: source/gx/tilix/terminal/terminal.d:1825
-#: source/gx/tilix/terminal/terminal.d:1847
+#: source/gx/tilix/terminal/terminal.d:1826
+#: source/gx/tilix/terminal/terminal.d:1848
 msgid "Select All"
 msgstr "Selecciona-ho tot"
 
-#: source/gx/tilix/terminal/terminal.d:1864
+#: source/gx/tilix/terminal/terminal.d:1865
 msgid "Synchronize input"
 msgstr "Sincronitza l'entrada"
 
-#: source/gx/tilix/terminal/terminal.d:2017
+#: source/gx/tilix/terminal/terminal.d:2018
 #, c-format
 msgid "Could not check file '%s' due to error '%s'"
 msgstr "No es pot comprovar el fitxer «%s» degut a un error «%s»"
 
-#: source/gx/tilix/terminal/terminal.d:2024
-#, fuzzy, c-format
+#: source/gx/tilix/terminal/terminal.d:2025
+#, c-format
 msgid ""
 "Remote file URIs are not supported with hyperlinks.\n"
 "URI was '%s'"
 msgstr ""
-"Els URI dels fitxers remots no són compatibles amb els hiperenllaços. \n"
+"Els URI dels fitxers remots no s'admeten als hiperenllaços.\n"
 "L'URI era «%s»"
 
-#: source/gx/tilix/terminal/terminal.d:2025
+#: source/gx/tilix/terminal/terminal.d:2026
 msgid "Remote File URI Unsupported"
 msgstr "URI de fitxer remot no compatible"
 
-#: source/gx/tilix/terminal/terminal.d:2057
-#: source/gx/tilix/terminal/terminal.d:2610
+#: source/gx/tilix/terminal/terminal.d:2059
+#: source/gx/tilix/terminal/terminal.d:2613
 #, c-format
 msgid "Custom link regex '%s' has an error, ignoring"
 msgstr ""
-"L'expressió regular «%s» de l'enllaç personalitzat té un error,  s'ignorarà"
+"L'expressió regular «%s» de l'enllaç personalitzat té un error, s'ignorarà"
 
-#: source/gx/tilix/terminal/terminal.d:2058
+#: source/gx/tilix/terminal/terminal.d:2060
 msgid "Regular Expression Error"
 msgstr "Error d'expressió regular"
 
-#: source/gx/tilix/terminal/terminal.d:2071
+#: source/gx/tilix/terminal/terminal.d:2073
 #, c-format
 msgid "Could not open match '%s'"
 msgstr "No s'ha pogut obrir la coincidència «%s»"
 
-#: source/gx/tilix/terminal/terminal.d:2072
+#: source/gx/tilix/terminal/terminal.d:2074
 msgid "Error Opening Match"
 msgstr "Error en obrir la coincidència"
 
-#: source/gx/tilix/terminal/terminal.d:2570
+#: source/gx/tilix/terminal/terminal.d:2573
 #, c-format
 msgid "Unexpected error occurred when adding link regex: %s"
 msgstr ""
 "S'ha produït un error inesperat quan s'afegia l'expressió regular de "
 "l'enllaç: %s"
 
-#: source/gx/tilix/terminal/terminal.d:2767
+#: source/gx/tilix/terminal/terminal.d:2773
 msgid "Unexpected error occurred, no additional information available"
 msgstr ""
 "S'ha produït un error inesperat, no hi ha informació addicional disponible"
 
-#: source/gx/tilix/terminal/terminal.d:2777
+#: source/gx/tilix/terminal/terminal.d:2783
 #, c-format
 msgid "Unexpected error occurred: %s"
 msgstr "S'ha produït un error inesperat: %s"
 
-#: source/gx/tilix/terminal/terminal.d:3659
+#: source/gx/tilix/terminal/terminal.d:3662
 msgid "Save Terminal Output"
 msgstr "Desa la sortida del terminal"
 
-#: source/gx/tilix/terminal/terminal.d:3668
+#: source/gx/tilix/terminal/terminal.d:3671
 msgid "All Text Files"
 msgstr "Tots els fitxers de text"
 
-#: source/gx/tilix/terminal/terminal.d:3998
+#: source/gx/tilix/terminal/terminal.d:4001
 msgid "Unknown"
 msgstr "Desconegut"
 
-#: source/gx/tilix/terminal/terminal.d:4262
+#: source/gx/tilix/terminal/terminal.d:4265
 #, c-format
 msgid "The child process exited normally with status %d"
 msgstr "El procés fill ha sortit normalment amb l'estat %d"
 
-#: source/gx/tilix/terminal/terminal.d:4263
+#: source/gx/tilix/terminal/terminal.d:4266
 #, c-format
 msgid "The child process was aborted by signal %d."
 msgstr "La senyal %d ha avortat el procés fill."
 
-#: source/gx/tilix/terminal/terminal.d:4264
+#: source/gx/tilix/terminal/terminal.d:4267
 msgid "The child process was aborted."
 msgstr "El procés fill s'ha avortat."
 
-#: source/gx/tilix/terminal/terminal.d:4270
+#: source/gx/tilix/terminal/terminal.d:4273
 msgid "Relaunch"
 msgstr "Torna a llançar"
 
-#: source/gx/tilix/terminal/terminal.d:4337
+#: source/gx/tilix/terminal/terminal.d:4340
 msgid "Don't Paste"
 msgstr "No enganxis"
 
-#: source/gx/tilix/terminal/terminal.d:4338
+#: source/gx/tilix/terminal/terminal.d:4341
 msgid "Paste Anyway"
 msgstr "Enganxa de totes maneres"
 
+#~ msgid "A tiling terminal for Gnome"
+#~ msgstr "Un mosaic de terminals per a Gnome"
+
 #~ msgid "About"
 #~ msgstr "Quant a"
+
+#~ msgid "Gerald Nunn"
+#~ msgstr "Gerald Nunn"
 
 #~ msgid "Quit"
 #~ msgstr "Surt"
@@ -3016,6 +3098,10 @@ msgstr "Enganxa de totes maneres"
 #~ "Algunes característiques noves i correccions d'errors; consulteu https://"
 #~ "gnunn1.github.io/tilix-web/ per a obtenir informació específica sobre "
 #~ "aquesta versió."
+
+#~ msgctxt "shortcut window"
+#~ msgid "View configured shortcuts"
+#~ msgstr "Mostra les dreceres configurades"
 
 #~ msgid "com.gexperts.Tilix"
 #~ msgstr "com.gexperts.Tilix"

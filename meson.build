@@ -1,8 +1,8 @@
 project(
     'Tilix', 'd',
-    version: '1.9.5',
+    version: '1.9.7',
     license: 'MPL-2.0',
-    meson_version: '>= 0.52'
+    meson_version: '>= 0.56'
 )
 
 compiler = meson.get_compiler('d')
@@ -93,14 +93,12 @@ tilix_sources = [
     'source/app.d'
 ]
 
-source_root = meson.source_root()
 sources_dir = include_directories('source/')
 
 # Dependencies
-gtkd_dep = dependency('gtkd-3', version: '>=3.8.5')
-vted_dep = dependency('vted-3', version: '>=3.8.5')
+gtkd_dep = dependency('gtkd-3', version: '>=3.10.0')
+vted_dep = dependency('vted-3', version: '>=3.10.0')
 xlib_dep = dependency('x11')
-libunwind_dep = dependency('libunwind')
 libsecret_dep = dependency('libsecret-1', required: false)
 
 subdir('po')
@@ -113,7 +111,6 @@ executable('tilix',
     dependencies : [gtkd_dep,
                     vted_dep,
                     xlib_dep,
-                    libunwind_dep,
                     libsecret_dep],
     d_args: d_extra_args,
     d_module_versions: ['StdLoggerDisableTrace'],

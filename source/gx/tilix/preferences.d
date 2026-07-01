@@ -23,6 +23,8 @@ import gx.tilix.constants;
 
 //Gnome Desktop Settings
 enum SETTINGS_DESKTOP_ID = "org.gnome.desktop.interface";
+enum SETTINGS_COLOR_SCHEME_KEY = "color-scheme";
+enum SETTINGS_COLOR_SCHEME_PREFER_DARK_VALUE = "prefer-dark";
 enum SETTINGS_MONOSPACE_FONT_KEY = "monospace-font-name";
 
 //Gnome Proxy Settings
@@ -98,6 +100,8 @@ enum SETTINGS_SEARCH_DEFAULT_MATCH_CASE = "search-default-match-case";
 enum SETTINGS_SEARCH_DEFAULT_MATCH_ENTIRE_WORD = "search-default-match-entire-word";
 enum SETTINGS_SEARCH_DEFAULT_MATCH_AS_REGEX = "search-default-match-as-regex";
 enum SETTINGS_SEARCH_DEFAULT_WRAP_AROUND = "search-default-wrap-around";
+
+enum SETTINGS_ALWAYS_USE_REGEX_IN_SEARCH = "always-use-regex-in-search";
 
 enum SETTINGS_BACKGROUND_IMAGE_KEY = "background-image";
 enum SETTINGS_BACKGROUND_IMAGE_SCALE_KEY = "background-image-scale";
